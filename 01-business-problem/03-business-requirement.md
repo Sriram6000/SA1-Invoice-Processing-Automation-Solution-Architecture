@@ -1,10 +1,10 @@
 # Business Requirements
 
 ## Functional Requirements
-- Invoice ingestion (PDF, email, portal)
-- Extraction & validation (PO/GRN/tax)
+- Invoice ingestion (PDF, email)
+- Extraction & validation 
 - Exception handling & approvals
-- ERP posting & reconciliation
+- ERP posting 
 
 ## Non-Functional Requirements (NFRs)
 - Auditability: Immutable, end-to-end audit trail (capture → validation → exception → approval → posting)
