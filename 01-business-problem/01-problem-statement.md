@@ -52,3 +52,7 @@ The current operating model of AP activities are largely manual, including invoi
 - **Global Standardization:** Central controls with local compliance.
 - **Measurable ROI:** Tangible cost-out, quality improvements, and vendor experience gains.
 - **Enhanced Auditability and Compliance:** Ensure a complete, tamper-proof audit trail for every invoice action, meeting regulatory requirements.
+
+|Back to : [Business Problem](01-business-problem.md) | Next : [Projections](02-projections.md)|
+|-|-|
+
