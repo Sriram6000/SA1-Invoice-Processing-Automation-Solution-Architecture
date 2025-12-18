@@ -31,7 +31,7 @@ This repository focuses on designing scalable, automated solutions for Accounts 
 
 Manual invoice processing drives rising costs, frequent SLA breaches, high error rates, and fragmented audit trails. With invoice volumes growing rapidly, these challenges scale linearly, creating significant compliance and operational risks.
 
-Detailed pain points, key assumptions, and impact analysis are documented in [01-business-problem/01-problem-statement.md](01-business-problem/01-problem-statement.md).
+Detailed pain points, key assumptions, and impact analysis are documented in [01-business-problem](01-business-problem).
 
 ## Solution Approach
 
