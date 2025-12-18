@@ -18,5 +18,5 @@
 - Microsoft Power Platform + AI Builder as core stack
 - Pilot first, then phased global rollout
 
-- |Previous Section : [Projections](02-projections.md) | Back to : [Business Problem](01-business-problem.md)|
+|Previous Section : [Projections](02-projections.md) | Back to : [Business Problem](01-business-problem.md)|
 |-|-|
