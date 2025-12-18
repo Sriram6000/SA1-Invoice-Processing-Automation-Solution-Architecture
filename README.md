@@ -40,9 +40,9 @@ To support this diversity, this repository documents **three alternative archite
 
 Details of these approaches are documented in [02-solution-approach](02-solution-approach)
 
-## Architectural Patterns
+### Architectural Patterns
 
-  - **[Pattern 3](/02-solution-approach/architecture-patterns/pattern-3-high-volume.md)**: High Volume / Scalable & Resilient *(detailed design and diagrams)*
+  - **Pattern 3**: High Volume / Scalable & Resilient *(detailed design and diagrams)*
   - **Pattern 2**: Mid Volume / Balanced *(planned, placeholder for future content)*
   - **Pattern 1**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*  
 
