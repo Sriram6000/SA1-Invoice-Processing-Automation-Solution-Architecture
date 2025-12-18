@@ -7,7 +7,7 @@
 - ERP posting & reconciliation
 
 ## Non-Functional Requirements (NFRs)
-- **Auditability**: Immutable, end-to-end audit trail (capture → validation → exception → approval → posting)
+- Auditability: Immutable, end-to-end audit trail (capture → validation → exception → approval → posting)
 - SLA: On-time payment ≥ 95% post-automation; cycle-time targets
 - Accuracy: Error rate ≤ 0.5% (target)
 - Scalability: 20–30% YoY volume growth
@@ -17,3 +17,6 @@
 ## Dependencies & Assumptions
 - Microsoft Power Platform + AI Builder as core stack
 - Pilot first, then phased global rollout
+
+- |Previous Section : [Projections](02-projections.md) | Back to : [Business Problem](01-business-problem.md)|
+|-|-|
