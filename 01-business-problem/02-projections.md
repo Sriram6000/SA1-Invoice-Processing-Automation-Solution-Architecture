@@ -1,3 +1,5 @@
+# Projections (Manual Trajectory)
+
 With the current manual opertating model, the AP teams projects its organization’s scale and costs to evolve and as follows:
 
    |Period|Annual Invoice<br/> Volume|FTE Count|Annual Errors|Delayed Payments<br/> (SLA Breaches)|Annual Cost <br/>(USD)|
@@ -27,3 +29,7 @@ With the current manual opertating model, the AP teams projects its organization
 
 > [!CAUTION]
 > This table excludes QC sampling, rework hours, overhead, technology, and penalties — actual costs will be higher.
+
+
+|Previous Section : [Problem Statement](01-problem-statement.md) | Next Section : [Business Requirement](03-business-requirement.md)|
+|-|-|
