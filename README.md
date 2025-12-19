@@ -13,13 +13,12 @@ This repository documents the **business problem**, **solution approaches**, and
 1. [Context](#context)
 2. [Business Problem](#business-problem)
 3. [Solution Approach](#solution-approach)
-4. [Architectural Patterns](#architectural-patterns)
-5. [Architecture Diagram](#architecture-diagram)
-6. [ROI Analysis](url)
-7. [Data](url)
-8. [Assets](url)
-9. [Contribution Guidelines](#contribution-guidelines)
-10. [License](#license)
+4. [Architecture Diagram](#architecture-diagram)
+5. [ROI Analysis](url)
+6. [Data](url)
+7. [Assets](url)
+8. [Contribution Guidelines](#contribution-guidelines)
+9. [License](#license)
 
 ## Context
 
@@ -41,9 +40,9 @@ To support this diversity, this repository documents **three alternative archite
 Details of these approaches are documented in [02-solution-approach](02-solution-approach)
 
 ### Architectural Patterns
-
-  - **Pattern 1**: High Volume / Scalable & Resilient *(detailed design and diagrams)*
-  **Additional Patterns**  
+  - **Pattern 1**: High Volume / Scalable & Resilient *(detailed design and diagrams)*    
+  
+  Additional Patterns
   - **Pattern 2**: Mid Volume / Balanced *(planned, placeholder for future content)*
   - **Pattern 3**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*  
 
