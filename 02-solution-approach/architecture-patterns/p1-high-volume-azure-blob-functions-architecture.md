@@ -1,4 +1,4 @@
-## Pattern 1 - High Volume / Scalable & Resilient
+## Pattern 1 : High Volume - Azure Blob & Functions Architecture
 
 This pattern is designed for **large-scale operations** where invoice volumes are extremely high (millions per year) across multiple countries. It focuses on **scalability, resilience, and performance**, ensuring the solution can handle global workloads efficiently while maintaining compliance and auditability.
 
