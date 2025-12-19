@@ -77,6 +77,6 @@ Different volumes, cost constraints, and operating models require tailored desig
 
 ---
 
-|Back to : [Business Problem](01-business-problem.md) | Next : [Architecture Patterns](architecture-patterns)|
+|Back to : [Solution Approach](/02-solution-approach) | Next : [Architecture Patterns](architecture-patterns)|
 |-|-|
 
