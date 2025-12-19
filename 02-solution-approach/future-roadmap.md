@@ -1,5 +1,7 @@
 ## Future Roadmap
 
+This roadmap outlines the **next phase of enhancements** for the invoice automation solution. While the current architecture addresses the core business problem and automation needs, future enhancements will focus on delivering a more resilient, intelligent, and feature-rich platform.
+
 *   **API-based ERP Integration:** Transition from UI automation to direct ERP API integration for improved reliability.
 *   **Advanced AI Models:** Explore custom AI models for complex formats and multi-language support.
 *   **Multi-region Rollout:** Scale to additional regions and business units.
@@ -8,3 +10,5 @@
 *   **Continuous Improvement:** Regular model retraining, process optimization, and user feedback loops.
 *   **Enhanced Security & Compliance:** Ongoing security assessments and compliance audits.
 *   **Integration with Other Finance Processes:** Extend automation to related finance workflows.
+
+These initiatives ensure the solution remains scalable, secure, and aligned with evolving business and technology requirements.
