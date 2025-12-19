@@ -1,29 +1,31 @@
-## Pattern 3 - High Volume / Scalable & Resilient
+## Pattern 1 - High Volume / Scalable & Resilient
 
-The solution pilots invoice processing automation in one region, with plans to scale globally.
+This pattern is designed for **large-scale operations** where invoice volumes are extremely high (millions per year) across multiple countries. It focuses on **scalability, resilience, and performance**, ensuring the solution can handle global workloads efficiently while maintaining compliance and auditability.
 
-*   **Platform:** Microsoft Power Platform, Azure Functions, Azure Blob Storage
-*   **Data Ingestion:** Invoices received via email, saved to Azure Blob Storage, Azure Functions split multi-paged invoices
-*   **Extraction:** AI Builder extracts invoice data; low-confidence cases routed for human review through Power Apps
-*   **Validation & Posting:** Data validated, posted to ERP via PAD (legacy UI automation)
-*   **Storage & Security:** Canonical data in Dataverse; files in Blob; credentials in Azure Key Vault
-*   **Observability:** Power Automate Queues and Logs, custom Power BI dashboards
+The architecture leverages **Microsoft Power Platform** and **AI Builder** for intelligent document processing, integrated with ERP systems for seamless posting and robust audit trails.
 
-**Single-region pilot benefits:**
 
-*   Lower initial complexity
-*   Faster delivery and validation
-*   Easier compliance approvals
-*   Ability to refine extraction models with local invoice samples
-*   Reduced infrastructure and licensing footprint during early stages
+## Business Context
+- Directly addresses the **business problem** of scaling Accounts Payable for a global FMCG enterprise.
+- Ensures **cost efficiency at scale** while meeting SLA and compliance requirements.
+- Provides **future-ready architecture** for growth and automation maturity.
 
-***
+## Technical Overview
+The solution pilots invoice processing automation in **one region**, with plans to **scale globally**.
+
+**Key Components:**
+- **Platform:** Microsoft Power Platform, Azure Functions, Azure Blob Storage
+- **Data Ingestion:** Invoices received via email, saved to Azure Blob Storage; Azure Functions split multi-page invoices
+- **Extraction:** AI Builder extracts invoice data; low-confidence cases routed for human review through Power Apps
+- **Validation & Posting:** Data validated and posted to ERP via Power Automate Desktop (legacy UI automation)
+- **Storage & Security:** Canonical data in Dataverse; files in Blob; credentials in Azure Key Vault
+- **Observability:** Power Automate Queues and Logs, custom Power BI dashboards
 
 ## Architecture Diagram
 
 *End-to-end invoice automation leveraging Microsoft Power Platform and Azure services.*
 <img src='https://github.com/Sriram6000/SA1-Invoice-Processing-Automation-Solution-Architecture/blob/main/05-assets/Invoice%20Processing%20Solution%20Archeitecture-High%20Volume.png'/>
-***
+
 
 ## Detailed Solution Design
 
@@ -35,8 +37,6 @@ The solution pilots invoice processing automation in one region, with plans to s
 *   **ERP Posting:** PAD queue flow posts to ERP UI, updates status in Dataverse.
 *   **Monitoring & Reconciliation:** Dashboards surface throughput, exceptions, confidence histograms, and latency; alerts routed to ops channel.
 
-***
-
 ## Well-Architected Framework Alignment
 
 | Pillar                  | Implementation Example                                                                  |
@@ -46,8 +46,6 @@ The solution pilots invoice processing automation in one region, with plans to s
 | Operational Excellence  | Admin analytics, Power BI dashboards, flow logs, runbooks, ALM with Solutions           |
 | Performance Efficiency  | Auto-scaling Azure Functions, page pre-filtering, concurrency controls, cost monitoring |
 | Experience Optimization | Power Apps reviewer app, SLAs, feedback loop, status tracking, notifications            |
-
-***
 
 ## Cost & Licensing Analysis
 
@@ -65,8 +63,6 @@ Assumptions: 5,000 invoices/month (average).
 | Power Automate Unattended License | $150 / bot                                       | Not required if using Hosted Machine |
 | Power Apps Premium License        | $15 / user                                       |                                      |
 
-***
-
 ## Pros & Cons
 
 | Area                 | Pros                                                        | Cons                                  |
@@ -75,8 +71,6 @@ Assumptions: 5,000 invoices/month (average).
 | AI Builder           | Fast to pilot, native integration                           | May need custom models, credit cost   |
 | PAD for ERP          | Enables legacy automation                                   | Fragile to UI changes & app stability |
 | Blob Storage         | Cheap, scalable, offloads Dataverse storage                 | Extra step for file management        |
-
-***
 
 ## Risks & Mitigations
 
@@ -96,8 +90,6 @@ Assumptions: 5,000 invoices/month (average).
 | Vendor lock-in            | Heavy reliance on Power Platform or Azure-specific features  | Document integration points, design for modularity, monitor alternatives                       |
 | Knowledge/skills gap      | Team lacks expertise in Power Platform, Azure, or AI Builder | Training, documentation, Microsoft Learn resources, assign mentors                             |
 
-***
-
 ## Dataverse Data Model (Core Tables)
 
 *   **Invoice\_Staging:** StagingId (GUID), BlobUri, Checksum, Sender, ReceivedAt, Status, ErrorDetail
@@ -106,8 +98,6 @@ Assumptions: 5,000 invoices/month (average).
 *   **InvoiceLine:** LineId, InvoiceId (lookup), Description, Quantity, UnitPrice, TaxRate, Amount, ExtractConfidence
 *   **Processing Log:** LogId, Entity, EntityId, EventType, Timestamp, Message, Severity, CorrelationId
 *   **Posting\_Result:** InvoiceId, PostingNumber, PostedAt, ErpCompany, ErrorsJson
-
-***
 
 ## Future Roadmap
 
