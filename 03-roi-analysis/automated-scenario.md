@@ -1,22 +1,30 @@
-# Cost of Automated Scenario — Pattern 1 (High Volume)
+# Automated Scenario — Pattern 1 (High Volume)
 
 Model the **target-state run‑rate** when Pattern 1 is implemented, including residual labor, licenses, infra, support, and one‑time capex.
 
 ## Improvement Levers
+
 - Manual minutes ↓ **85%** → residual **0.9 min/invoice**
 - Error rate ↓ **2.5% → 0.5%**
 - SLA late ↓ **20% → ≤5%**
 - New costs: **License**, **Infra**, **Support FTEs**, **Capex (Year 1)**
 
 ## Key Formulas
-1. Residual Minutes/Invoice = 6 × (1 - 0.85) = 0.9
-2. FTE_auto = (Invoices × 0.9 / 60) / 1,680
-3. License Cost = Invoices × $0.03
-4. Support Cost = 6 × $40,000 = $240,000
-5. Total Auto Cost (Yr 1) = Residual Labor + License + Infra + Support + Capex
-6. Total Auto Cost (Yr 2+) = Residual Labor + License + Infra + Support
+
+> Residual Minutes/Invoice = 6 × (1 - 0.85) = 0.9
+
+> FTE_auto = (Invoices × 0.9 / 60) / 1,680
+
+> License Cost = Invoices × $0.03
+
+> Support Cost = 6 × $40,000 = $240,000
+
+> Total Auto Cost (Yr 1) = Residual Labor + License + Infra + Support + Capex
+
+> Total Auto Cost (Yr 2+) = Residual Labor + License + Infra + Support
 
 ## Year-by-Year Snapshot
+
 | Period           | Annual Invoices | Residual FTE (calc) | Errors (# & %)    | Delayed Payments (# & %) | Residual Labor | License  | Infra  | Support | Capex (Y1) | **Total Auto Cost** |
 |------------------|----------------:|--------------------:|------------------:|--------------------------:|---------------:|---------:|-------:|--------:|-----------:|--------------------:|
 | Last Year        | 3,840,000       | 34.3               | 19,200 (0.5%)     | 192,000 (5%)              | $1,371,429     | $115,200 | $150k | $240k  | $0         | **$1,876,629**      |
