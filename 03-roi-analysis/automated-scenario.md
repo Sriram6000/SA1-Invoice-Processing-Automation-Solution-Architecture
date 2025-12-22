@@ -9,12 +9,12 @@ Model the **target-state run‑rate** when Pattern 1 is implemented, including r
 - New costs: **License**, **Infra**, **Support FTEs**, **Capex (Year 1)**
 
 ## Key Formulas
-Residual Minutes/Invoice = 6 × (1 - 0.85) = 0.9
-FTE_auto = (Invoices × 0.9 / 60) / 1,680
-License Cost = Invoices × $0.03
-Support Cost = 6 × $40,000 = $240,000
-Total Auto Cost (Yr 1) = Residual Labor + License + Infra + Support + Capex
-Total Auto Cost (Yr 2+) = Residual Labor + License + Infra + Support
+1. Residual Minutes/Invoice = 6 × (1 - 0.85) = 0.9
+2. FTE_auto = (Invoices × 0.9 / 60) / 1,680
+3. License Cost = Invoices × $0.03
+4. Support Cost = 6 × $40,000 = $240,000
+5. Total Auto Cost (Yr 1) = Residual Labor + License + Infra + Support + Capex
+6. Total Auto Cost (Yr 2+) = Residual Labor + License + Infra + Support
 
 ## Year-by-Year Snapshot
 | Period           | Annual Invoices | Residual FTE (calc) | Errors (# & %)    | Delayed Payments (# & %) | Residual Labor | License  | Infra  | Support | Capex (Y1) | **Total Auto Cost** |
