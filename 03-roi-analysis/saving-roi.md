@@ -9,7 +9,9 @@
 | Next Year        | $14,285,714           | $2,712,857                | **$11,572,857**    | **$27,669,371**        |
 | Year After Next  | $17,857,143           | $3,293,571                | **$14,563,571**    | **$42,232,943**        |
 
+
 > **Payback:** Achieved within **the first Year** (cumulative savings exceed **$350,000** capex in Year 1).  
+>
 > **3‑Year Cumulative Savings:** **$42.23M** (labor-only baseline).
 
 ## Formulas
