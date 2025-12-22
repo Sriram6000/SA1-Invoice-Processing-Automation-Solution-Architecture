@@ -1,4 +1,4 @@
-# Cost of Baseline — Manual Processing
+# Baseline — Manual 
 
 The purpose of this section is to establish the **current run‑rate** of manual Account Payable's operations to quantify the "cost of doing nothing".
 
@@ -14,7 +14,7 @@ The purpose of this section is to establish the **current run‑rate** of manual
 
 ## Year-by-Year Snapshot
 
-| Period           | Annual Invoices | FTE (calc) | Errors (# & %)   | Delayed Payments (# & %) | **Direct Labor Cost (USD)** |
+| Period           | Annual Invoices | FTE | Errors (# & %)   | Delayed Payments (# & %) | **Direct Labor Cost (USD)** |
 |------------------|----------------:|-----------:|------------------:|--------------------------:|----------------------------:|
 | Last Year        | 3,840,000       | 229        | 96,000 (2.5%)     | 768,000 (20%)             | **$9,142,857**              |
 | This Year        | 4,800,000       | 286        | 120,000 (2.5%)    | 960,000 (20%)             | **$11,428,571**             |
