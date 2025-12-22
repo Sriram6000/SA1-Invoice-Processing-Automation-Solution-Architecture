@@ -14,9 +14,10 @@
 
 ## Financial Assumptions
 - Fully loaded Accounts Payable FTE (blended): **$40,000/year**
-- (No data as of now) QC/Specialist FTE: **$XX,000/year**
-- (No data as of now) Overhead on labor: **+25%**
-- (No data as of now) SLA penalties: **$X per late invoice** or **$Y per breach event**
+- The below indirect cost are pending from the team 
+  - QC/Specialist FTE: **$XX,XXX/year**
+  - Overhead on labor: **+XX%**
+  - SLA penalties: **$X per late invoice** or **$Y per breach event**
 
 ## Automation (Pattern 1: High Volume – Azure Blob & Functions)
 - **Manual reduction:** **85%** (residual **0.9 min/invoice**)
