@@ -48,12 +48,8 @@ Details of these approaches are documented in [02-solution-approach](02-solution
 
 ## High-Level Workflow
 
-A high level view of the solution that is proposed.
-Place holder for daigram
-
-Invoice PDF → AI Builder (OCR) → Validation → Exception Handling → Approval → ERP Posting → Audit Log
-
-his diagram represents the high-level process flow for invoice automation. Detailed architectural patterns and technical diagrams are documented in the Solution Approach folder.
+This diagram represents the high-level workflow for invoice automation. Detailed architectural patterns and technical diagrams are discussed indetail in the Architectural Patterns.
+<img src='https://github.com/Sriram6000/SA1-Invoice-Processing-Automation-Solution-Architecture/blob/main//05-assets/daigrams/High-level Workflow.png'/>
 
 ## ROI Analysis
 
