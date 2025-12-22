@@ -14,9 +14,9 @@
 
 ## Formulas
 
-Annual Savings_t = Manual Cost_t − Automated Cost_t
-Cumulative Savings_T = Σ Annual Savings_t (1..T)
-Payback (years) = find earliest T where Cumulative Savings_T ≥ Capex
+1. Annual Savings_t = Manual Cost_t − Automated Cost_t
+2. Cumulative Savings_T = Σ Annual Savings_t (1..T)
+3. Payback (years) = find earliest T where Cumulative Savings_T ≥ Capex
 
 ## KPI Deltas (Before → After)
 - SLA late %: **20% → ≤5%**
