@@ -14,9 +14,9 @@ This repository documents the **business problem**, **solution approaches**, and
 2. [Business Problem](#business-problem)
 3. [Solution Approach](#solution-approach)
 4. [High-Level Workflow](#high-level-workflow)
-5. [ROI Analysis](url)
-6. [Data](url)
-7. [Assets](url)
+5. [ROI Analysis](#roi-analysis)
+6. [Data](#data)
+7. [Assets](#assets)
 8. [Contribution Guidelines](#contribution-guidelines)
 9. [License](#license)
 
