@@ -29,29 +29,30 @@ This pattern is intended for organizations seeking a quick, cost-effective solut
 - Single Virtual Machine for RPA.
 
 ### **Important Note**
-- **AI Builder connector requires Power Automate Premium license in addition to Copilot credits which is consumed while execution.**
+- _AI Builder requires Power Automate Premium license even if AI credits are purchased. Copilot credits assist in development but do not replace licensing for execution._
   
 ### **Cost/Licensing Table**
-| Component                     | Licensing Model                              | Estimated Cost |
-|------------------------------|---------------------------------------------|---------------|
-| SharePoint Online           | Included in M365                            | N/A |
-| Power Apps                  | **N/A** (SharePoint only, no premium connectors) | N/A |
-| Power Automate (Cloud Flows)| Per-user or per-flow                        | \$15/user/month |
-| Copilot credit             | PAYG Meter                             | \$40 for 4000 copilot credits |
-| Hosted RPA Machine          |Process license + Hosted Machine             | \$215/month |
-| Azure Key Vault             | Pay-per-operation                           | Minimal |
+| Component                     | Licensing Model                              | Monthly Cost | Annual Cost |
+|------------------------------|---------------------------------------------|-------------:|------------:|
+| SharePoint Online           | Included in M365                            | N/A          | N/A |
+| Power Apps                  | **N/A** (SharePoint only, no premium connectors) | N/A          | N/A |
+| Power Automate (Cloud Flows)| Per-user or per-flow                        | $15          | $180 |
+| Copilot credit              | PAYG Meter                                  | $40          | $480 |
+| Hosted RPA Machine          | Process license + Hosted Machine            | $215         | $2,580 |
+| Azure Key Vault             | Pay-per-operation                           | Minimal      | Minimal |
+| **Estimated Total (Pilot)** |                                             | **~$270**     | **~$3,240** |
 
-**Execution Model Consideration**
-| Option                                  | Included                               | Monthly Cost (1 bot) | Notes                                              |
-| --------------------------------------- | -------------------------------------- | --------------------: | -------------------------------------------------- |
-| **Hosted Machine (RPA Hosted license) (Chosen)** | Process license + Microsoft-managed VM |                 ~$215 | Lower ops overhead |
-| **Customer-managed VMs**       | Process license + Azure VM (separate)  |          ~$190 – $230 | Better throughput control and cost optimisation    |
+### **Execution Model Consideration**
+| Option                                  | Included                               | Monthly Cost (1 bot) | Annual Cost | Notes                                              |
+| --------------------------------------- | -------------------------------------- | --------------------: | ----------: | -------------------------------------------------- |
+| **Hosted Machine (RPA Hosted license) (Chosen)** | Process license + Microsoft-managed VM | ~$215                | ~$2,580     | Lower ops overhead |
+| **Customer-managed VMs**               | Process license + Azure VM (separate)  | ~$190 – $230         | ~$2,280 – $2,760 | Better throughput control and cost optimisation    |
 
-**Observation:**  
+### **Observation:**  
 - Hosted Machine is simpler and cost-predictable for single bot scenarios.  
 - Azure VM option offers flexibility but adds extra cost and management overhead.
 
-**Disclaimer**
+### **Disclaimer**
 All costs presented above are indicative estimates only, based on publicly available pricing and architectural assumptions at the time of design.
 Actual costs may vary depending on:
   - Final invoice volume and page count
@@ -66,6 +67,7 @@ This analysis is intended solely for solution design and comparative evaluation 
 - Quick to implement using existing Microsoft ecosystem.
 - Lower cost compared to high-volume architecture.
 - Familiar tools for business users (Power Apps, SharePoint).
+- Minimal incremental cost if Microsoft 365 licenses already exist.
 
 **Cons**
 - Not scalable for large invoice volumes.
