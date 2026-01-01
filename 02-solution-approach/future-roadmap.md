@@ -12,3 +12,7 @@ This roadmap outlines the **next phase of enhancements** for the invoice automat
 *   **Integration with Other Finance Processes:** Extend automation to related finance workflows.
 
 These initiatives ensure the solution remains scalable, secure, and aligned with evolving business and technology requirements.
+
+---
+| Previous: [Comparison Table (Trade-offs)](architecture-patterns/04-comparison-table.md) | Next: [ROI Analysis](/03-roi-analysis/README.md) |
+|-|-|
