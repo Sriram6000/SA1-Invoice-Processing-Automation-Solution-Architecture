@@ -54,7 +54,7 @@ Different volumes, cost constraints, and operating models require tailored desig
   - Details are documented in [pattern-3-low-volume](architecture-patterns/03-p3-low-volume-sharepoint-based-architecture.md)
 
 - **Comparison Table (Trade-offs)**  
-  - Side-by-side view of cost, throughput, SLA reliability, ops complexity, and scalability.
+  - Side-by-side view of differnt factors.
   - Details are documented in [comparison-table](./architecture-patterns/04-comparison-table.md)
 
 ## Navigation Guide
