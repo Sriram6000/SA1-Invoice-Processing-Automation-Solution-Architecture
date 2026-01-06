@@ -27,3 +27,7 @@
 - FTE footprint: **~286 → ~43 residual + support (6)** in “This Year”
 
 > **Audit Trail Impact:** Automation creates **immutable audit logs** for capture → validation → approvals → posting, significantly reducing compliance risk and audit effort.
+
+ ---
+ |Back to : [Automated Scenario](03-automated-scenario.md) | Next : [Sensitivity Cases](05-sensitivity-cases.md)|
+|-|-|
