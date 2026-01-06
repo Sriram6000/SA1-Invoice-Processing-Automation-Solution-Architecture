@@ -57,11 +57,6 @@ This diagram represents the high-level workflow for invoice automation. Detailed
 
 Compare **manual vs automated** costs and show **payback period**.
 
-- Global projections
-  -Folder - `03-roi-analysis/manual-vs-automated.md`
-- Pilot country details
-  -Folder - `03-roi-analysis/manual-vs-automated.md`
-
 Details are documented in [ROI Analysis](03-roi-analysis/README.md) 
 
 ## Data
