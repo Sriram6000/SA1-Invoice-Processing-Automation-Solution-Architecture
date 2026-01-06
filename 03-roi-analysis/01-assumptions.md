@@ -1,8 +1,29 @@
 # Assumptions
 
-## Scope & Currency
-- Scope: Accounts Payable operations across **20 countries**.
-- Currency: **USD** for all calculations.
+Defines the operational and financial drivers used across the ROI analysis for **Pattern 1: High Volume (Azure Blob + Azure Functions)** over a 3‑year horizon.
+
+## Scope & Method
+- **Scope:** Accounts Payable operations across **20 countries** with phased rollout.
+- **Currency:**: USD for all calculations.
+- **Rounding:** Dollar amounts rounded to the nearest whole; **FTEs used as calculated** (not rounded) for cost
+- **Horizon:** 3 years (extendable to 5 years on request).
+- **Scope Boundary:** Direct operating costs; excludes taxes and intercompany allocations unless explicitly noted.
+- **Fair Comparison (Read This):**
+  - **Baseline (Manual)** shown as **Direct Labor Only** (conservative lower bound).
+  - **Automated (Pattern 1)** includes **Residual Labor + License + Infra + Support + one‑time Capex**.
+- Development effort is excluded from ROI; analysis focuses on operational run-rate savings post-implementation.
+
+
+## Rollout & Timing (Year 1)
+
+Benefits are **not** instantaneous across 20 countries. Applying pro‑rata weights:
+
+- **Q1:** 20% of annual volume  
+- **Q2:** 60%  
+- **Q3:** 80%  
+- **Q4:** 100%
+
+**Year 2+** assumed at full run‑rate. If country rollouts are staggered, adjust quarterly weights accordingly.
 
 ## Operational Assumptions
 - Annual Volume (Global): **4.8M**  
