@@ -17,8 +17,9 @@ This repository documents the **business problem**, **solution approaches**, and
 5. [ROI Analysis](#roi-analysis)
 6. [Data](#data)
 7. [Assets](#assets)
-8. [Contribution Guidelines](#contribution-guidelines)
-9. [License](#license)
+8. [Contributors](#contributors)
+9. [Contribution Guidelines](#contribution-guidelines)
+10. [License](#license)
 
 ## Context
 
@@ -69,6 +70,14 @@ Details are documented in [ROI Analysis](03-roi-analysis/README.md)
 ## Assets
 
  - Static resources used for this documentation are stored in [Assets](/05-assets)
+
+## Contributors
+
+This solution architecture and documentation were developed collaboratively by:
+
+- **[Sriram Sivakumar](https://www.linkedin.com/in/sriram-sivakumar-25824831/)** — Solution Archeitecture & Design and documentation.
+- **[Vinai Sankunni](https://www.linkedin.com/in/vinai-sankunni-6354197/)** — Guidance on business case presentation, financial framing.
+- **Copilot (AI Assistant)** — Idea expansion, document writing and content structuring.
 
 ## Contribution Guidelines
 
