@@ -22,3 +22,7 @@ The purpose of this section is to establish the **current run‑rate** of manual
 | Year After Next  | 7,500,000       | 446        | 187,500 (2.5%)    | 1,500,000 (20%)           | **$17,857,143**             |
 
 > Note: Costs shown are **direct labor only** to keep the baseline conservative. QC, rework, overhead, and penalties would increase total cost further.
+
+ ---
+ |Back to : [Assumptions](01-assumptions.md) | Next : [Automated Scenario](03-automated-scenario.md)|
+|-|-|
