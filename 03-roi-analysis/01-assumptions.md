@@ -48,3 +48,7 @@ Benefits are **not** instantaneous across 20 countries. Applying pro‑rata weig
 - **Infra (annual):** **$150,000** *(Azure Functions, Blob, monitoring, log storage)*
 - **Support team:** **6 FTE × $40,000 = $240,000/year**
 - **One‑time implementation (Year 1):** **$350,000** *(build, config, country pilot, change mgmt)*
+
+ ---
+ |Back to : [ROI Analysis](03-roi-analysis) | Next : [Baseline Manual](02-baseline-manual.md)|
+|-|-|
