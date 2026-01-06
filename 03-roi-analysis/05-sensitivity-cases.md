@@ -20,3 +20,7 @@ The purpose of this section is to show how ROI varies with different assumptions
 - **Residual minutes/invoice** and **license rate** materially impact ROI.
 - **Labor cost** and **volume growth** also drive savings magnitude.
 
+
+ ---
+ |Back to : [Saving & ROI.md](04-saving-roi.md) | Back to : [ROI Analysis](README.md) |
+|-|-|
