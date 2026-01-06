@@ -32,3 +32,7 @@ Model the **target-state run‑rate** when Pattern 1 is implemented, including r
 | Year After Next  | 7,500,000       | 67.0               | 37,500 (0.5%)     | 375,000 (5%)              | $2,678,571     | $225,000 | $150k | $240k  | $0         | **$3,293,571**      |
 
 > Assumes infra and support are fairly stable across years; adjust by country rollout if needed.
+
+ ---
+ |Back to : [Baseline Manual](02-baseline-manual.md) | Next : [Savings ROI](04-saving-roi.md)|
+|-|-|
